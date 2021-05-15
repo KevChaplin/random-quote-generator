@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  background-color: #545c69;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#quote-box {
+  position: relative;
+  background-color: white;
+  width: 100vw;
+  padding: 40px 40px;
+  box-shadow: 10px 10px 10px;
+}
+
+@media only screen and (min-width: 601px) {
+  #quote-box {
+    width: 50vw;;
+  }
+}
+
+button {
+  display: block;
+  position: relative;
+  bottom: 0px;
+  height: 55px;
+  width: 55px;
+  background-color: #545c69;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer
+}
+button:focus {
+  outline: none
+}
+
+
+#tweet {
+  background-image: url('2021 Twitter logo - white.png');
+  background-size: 35px 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#tweet-quote {
+  float: left;
+}
+
+#new-quote {
+  float: right;
+  color: white;
+}
+
+#text {
+  position: relative;
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+}
+@media only screen and (min-width: 601px) {
+  #text {
+    font-size: 50px;
+  }
+}
+
+#author {
+  text-align: right;
+  font-size: 15px;
+  font-family: 'Indie Flower', cursive;
+}
+@media only screen and (min-width: 601px) {
+  #author {
+    font-size: 25px;
+  }
+}

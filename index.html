@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="title">Random Quote Generator</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="jquery-3.6.0.js"></script>
+    <script src="scripts.js"></script>
+    <script src="https://kit.fontawesome.com/b83168af1c.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="quote-box">
+      <p id="text"></p>
+      <p id= "author"></p>
+    <div id="buttons">
+      <button
+        type="button"
+        title="New quote"
+        id="new-quote"
+        onClick="updateAll()">
+        <i class="fas fa-sync fa-2x"></i>
+      </button>
+        <a
+          id="tweet-quote"
+          class="twitter-share-button"
+          title="Share the wisdom"
+          target=_blank
+          href="https://twitter.com/intent/tweet?text=Quote%20Generator"
+          data-url="ireallyshouldmakemylandingpage.com/randomquotegenerator"
+          data-show-count="false">
+          <button id="tweet">
+          </button>
+        </a>
+    </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
