@@ -3,10 +3,24 @@
 Created as project 1 of the "Front End Development Libraries Projects" of the "FreeCodeCamp" syllabus.
 freeCodeCamp.org
 
-Project 1 - Build a Random Quote Machine
+## Build Notes
+
+- Built using HTML, CSS, and jQuery.
+- Quotes from API https://type.fit/api/quotes.
+- Icons from FontAwesome  https://fontawesome.com/.
+- Fonts from Google Fonts https://fonts.google.com/.
+- Tweet button from Twitter https://twitter.com/.
+
+## Known Issues
+
+- Container size fluctuating on text load in. Possible fix: animating text colour, rather than hiding text on initial load.
+- Further refinement for use on different screen sizes required.
+
+## Project 1 - Build a Random Quote Machine
+
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/qRZeGZ.
 
-Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
+Fulfil the below user stories and get all of the tests to pass. Give it your own personal style.
 
 You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
 
@@ -30,4 +44,4 @@ User Story #9: My quote machine should fetch the new quote's author when the #ne
 
 User Story #10: I can tweet the current quote by clicking on the #tweet-quote a element. This a element should include the "twitter.com/intent/tweet" path in its href attribute to tweet the current quote.
 
-User Story #11: The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.
+User Story #11: The #quote-box wrapper element should be horizontally centred. Please run tests with browser's zoom level at 100% and page maximized.
