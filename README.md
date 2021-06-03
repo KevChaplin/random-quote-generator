@@ -1,4 +1,4 @@
-# random-quote-generator
+# Random Quote Generator
 
 Created as project 1 of the "Front End Development Libraries Projects" of the "FreeCodeCamp" syllabus.
 freeCodeCamp.org
